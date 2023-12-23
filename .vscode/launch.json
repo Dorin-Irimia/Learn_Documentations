@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Git_Clone/Learn_Documentations/Dorin_LF_file",
-      "program": "d:/Git_Clone/Learn_Documentations/Dorin_LF_file/build/Debug/outDebug",
+      "cwd": "d:/Git_Clone/Learn_Documentations/Learning/Functions_IMP/Conver_a_string_to_integer",
+      "program": "d:/Git_Clone/Learn_Documentations/Learning/Functions_IMP/Conver_a_string_to_integer/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

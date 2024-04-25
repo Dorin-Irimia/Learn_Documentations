@@ -1,3 +1,3 @@
-Pentru a putea salva idei de proiecte sau incercari de a invata cate cava, am adaugat aici o parte din codurile implementate in trecut.
+Pentru a putea salva idei de proiecte, vom adauga aici o parte din functiile implementate.
 
-Se incearca definirea si exemplificarea in detaliu a codurilo sau programelor pentru a fi usor de refolosit in viitoare proiecte
+Se va incearca definirea si exemplificarea in detaliu a functiilor pentru a fi usor de reutilizat in proiecte viitoare 

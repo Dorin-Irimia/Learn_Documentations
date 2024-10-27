@@ -5,6 +5,7 @@ import RPi.GPIO as GPIO
 import time
 
 SECOND = 3
+PWM_ON = 50
 
 # GPIO pin setup
 KLEM1_SENSOR_PIN = 13
@@ -64,7 +65,7 @@ try:
             door_status = GPIO.input(DOOR_SENSOR_PIN)
             if door_status == True:
                 for time in SECOND:
-                    pwm_buzzer(50)
+                    pwm_buzzer(PWM_ON)
                     time.sleep(0.3)
                     pwm_buzzer.stop()
                     time.sleep(0.2)
@@ -74,7 +75,7 @@ try:
             belt_status = GPIO.input(BELT_SENSOR_PIN)
             if belt_status:
                 for time in SECOND:
-                    pwm_buzzer(50)
+                    pwm_buzzer(PWM_ON)
                     time.sleep(0.15)
                     pwm_buzzer.stop()
                     # time.sleep(0.1)
@@ -84,7 +85,7 @@ try:
             light_status = GPIO.input(LIGHT_SENSOR_PIN)
             if light_status:
                 for time in SECOND:
-                    pwm_buzzer(50)
+                    pwm_buzzer(PWM_ON)
                     time.sleep(0.3)
                     pwm_buzzer.stop()
                     # time.sleep(0.1) is definted in function readStatus 

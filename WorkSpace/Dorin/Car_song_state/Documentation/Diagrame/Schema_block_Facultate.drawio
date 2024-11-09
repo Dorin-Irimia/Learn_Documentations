@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.17">
+  <diagram name="Page-1" id="so_6djTKiyOjhYWVK6NY">
+    <mxGraphModel dx="872" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-32" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="180" y="480" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-27" value="Componente:&lt;div&gt;&lt;ul&gt;&lt;li&gt;4 Switchuri&lt;/li&gt;&lt;li&gt;1 Shift register&amp;nbsp;74HC165&lt;/li&gt;&lt;li&gt;4 LED-uri&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#bac8d3;strokeColor=#23445d;" parent="dD2PPeY6zO0vGN9yNTjX-32" vertex="1">
+          <mxGeometry width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-26" value="Modul_Portiere" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="dD2PPeY6zO0vGN9yNTjX-32" vertex="1">
+          <mxGeometry width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-33" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="180" y="650" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-29" value="Componente:&lt;div&gt;&lt;ul&gt;&lt;li&gt;1 Comutator&lt;/li&gt;&lt;li&gt;1 Resistor&lt;/li&gt;&lt;li&gt;2 LED-uri&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#bac8d3;strokeColor=#23445d;" parent="dD2PPeY6zO0vGN9yNTjX-33" vertex="1">
+          <mxGeometry width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-30" value="Modul_Contact" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="dD2PPeY6zO0vGN9yNTjX-33" vertex="1">
+          <mxGeometry width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-34" value="" style="group;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="180" y="820" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-35" value="Componente:&lt;div&gt;&lt;ul&gt;&lt;li&gt;1 Buzzer&lt;/li&gt;&lt;li&gt;1 Tranzistor sau AO&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#bac8d3;strokeColor=#23445d;" parent="dD2PPeY6zO0vGN9yNTjX-34" vertex="1">
+          <mxGeometry width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-36" value="Modul_Sonor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="dD2PPeY6zO0vGN9yNTjX-34" vertex="1">
+          <mxGeometry width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-37" value="" style="group;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="300" y="150" width="600" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="dD2PPeY6zO0vGN9yNTjX-37" vertex="1">
+          <mxGeometry width="600" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-1" value="uC" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="dD2PPeY6zO0vGN9yNTjX-37" vertex="1">
+          <mxGeometry x="160" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-8" value="Modul_Avarii" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#a50040;" parent="dD2PPeY6zO0vGN9yNTjX-37" vertex="1">
+          <mxGeometry x="270" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-9" value="Modul_Centura" style="rounded=0;whiteSpace=wrap;html=1;" parent="dD2PPeY6zO0vGN9yNTjX-37" vertex="1">
+          <mxGeometry x="10" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-10" value="Modul_Faruri" style="rounded=0;whiteSpace=wrap;html=1;" parent="dD2PPeY6zO0vGN9yNTjX-37" vertex="1">
+          <mxGeometry x="140" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-11" value="Modul_Portiere" style="rounded=0;whiteSpace=wrap;html=1;" parent="dD2PPeY6zO0vGN9yNTjX-37" vertex="1">
+          <mxGeometry x="10" y="10" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-12" value="Modul_Contact" style="rounded=0;whiteSpace=wrap;html=1;" parent="dD2PPeY6zO0vGN9yNTjX-37" vertex="1">
+          <mxGeometry x="140" y="10" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-13" value="Modul_Sonor" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#a50040;" parent="dD2PPeY6zO0vGN9yNTjX-37" vertex="1">
+          <mxGeometry x="270" y="10" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=2;" parent="dD2PPeY6zO0vGN9yNTjX-37" source="dD2PPeY6zO0vGN9yNTjX-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="155" as="sourcePoint" />
+            <mxPoint x="160" y="105" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=2;" parent="dD2PPeY6zO0vGN9yNTjX-37" source="dD2PPeY6zO0vGN9yNTjX-12" target="dD2PPeY6zO0vGN9yNTjX-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="150" as="sourcePoint" />
+            <mxPoint x="230" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#d80073;strokeColor=#A50040;" parent="dD2PPeY6zO0vGN9yNTjX-37" source="dD2PPeY6zO0vGN9yNTjX-1" target="dD2PPeY6zO0vGN9yNTjX-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="140" as="sourcePoint" />
+            <mxPoint x="300" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#60a917;strokeColor=#2D7600;" parent="dD2PPeY6zO0vGN9yNTjX-37" source="dD2PPeY6zO0vGN9yNTjX-9" target="dD2PPeY6zO0vGN9yNTjX-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="200" as="sourcePoint" />
+            <mxPoint x="130" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#d80073;strokeColor=#A50040;" parent="dD2PPeY6zO0vGN9yNTjX-37" source="dD2PPeY6zO0vGN9yNTjX-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="329.71000000000004" y="170" as="sourcePoint" />
+            <mxPoint x="329.71000000000004" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=2;" parent="dD2PPeY6zO0vGN9yNTjX-37" source="dD2PPeY6zO0vGN9yNTjX-10" target="dD2PPeY6zO0vGN9yNTjX-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="150" as="sourcePoint" />
+            <mxPoint x="220" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-25" value="&lt;b&gt;&lt;font color=&quot;#16ff05&quot;&gt;Verde&lt;/font&gt;:&amp;nbsp;&lt;/b&gt;&lt;div&gt;Intrarile microcontrolerului&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;Rosu&lt;/font&gt;:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Iesirile microcontrolerului&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="dD2PPeY6zO0vGN9yNTjX-37" vertex="1">
+          <mxGeometry x="420" y="10" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-38" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="590" y="480" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-39" value="Componente:&lt;div&gt;&lt;ul&gt;&lt;li&gt;1 Switch&lt;/li&gt;&lt;li&gt;1 LED&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#bac8d3;strokeColor=#23445d;" parent="dD2PPeY6zO0vGN9yNTjX-38" vertex="1">
+          <mxGeometry width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-40" value="Modul_Centura" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="dD2PPeY6zO0vGN9yNTjX-38" vertex="1">
+          <mxGeometry width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-41" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="590" y="650" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-42" value="Componente:&lt;div&gt;&lt;ul&gt;&lt;li&gt;1 Comutator&lt;/li&gt;&lt;li&gt;1 Resistor&lt;/li&gt;&lt;li&gt;2 LED-uri&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#bac8d3;strokeColor=#23445d;" parent="dD2PPeY6zO0vGN9yNTjX-41" vertex="1">
+          <mxGeometry width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-43" value="Modul_Faruri" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="dD2PPeY6zO0vGN9yNTjX-41" vertex="1">
+          <mxGeometry width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-44" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="590" y="820" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-45" value="Componente:&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1 LED&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#bac8d3;strokeColor=#23445d;" parent="dD2PPeY6zO0vGN9yNTjX-44" vertex="1">
+          <mxGeometry width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-46" value="Modul_Avarii" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="dD2PPeY6zO0vGN9yNTjX-44" vertex="1">
+          <mxGeometry width="90" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

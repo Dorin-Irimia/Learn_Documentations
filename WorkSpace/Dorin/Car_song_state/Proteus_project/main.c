@@ -32,16 +32,16 @@ char door_pressed = 0;
 
 void init() 
 {
-	TRISC = 0x00;              // Configurare RC2 ca ie?ire (PWM)
+	TRISC = 0x00;              // Configurare RC2 ca iesire (PWM)
     PR2 = 0xFF;                // Setare perioada PWM
     CCP1CON = 0b00001100;       // Modul PWM activat
     T2CON = 0b00000100;         // Timer2 pornit, prescaler 1:1
-    PWM_DS = 0x10;              // Duty cycle ini?ial
+    PWM_DS = 0x00;              // Duty cycle ini?ial
 
 	TRISB = 0b11111111;        
-    TRISA = 0b00000000;         // RA0 configurat ca ie?ire
-    ANSELH = 0x00;              // Dezactiveaza func?iile analogice pentru AN8-AN13
-    ANSEL = 0x00;               // Dezactiveaza func?iile analogice pentru AN0-AN7
+    TRISA = 0b00000000;         // RA0 configurat ca iesire
+    ANSELH = 0x00;              // Dezactiveaza funcsiile analogice pentru AN8-AN13
+    ANSEL = 0x00;               // Dezactiveaza funcsiile analogice pentru AN0-AN7
 }
 
 
@@ -57,12 +57,12 @@ void beltCheck()
 				{
 					if((DOOR_SENSOR == 1) && (door_pressed == 0))
 					{
-						door_pressed == 2;
+						door_pressed = 2;
 						break;
 					}
 					if((DOOR_SENSOR == 0) && (door_pressed == 1))
 					{
-						door_pressed == 0;
+						door_pressed = 0;
 						door_status = 0;
 						DOOR_LIGHT = 0;
 					}
@@ -108,13 +108,16 @@ void doorCheck()
 					PWM_DS = 0x00;
 					__delay_ms(500);
 					if((DOOR_SENSOR==0) || (KLEM1_SENSOR==0))
-					{
+					{	
+						DOOR_LIGHT = 0;
+						door_status = 0;
 						break;
 					}
 				}
 				door_status = 1;
 			}
 		}
+	
 	}
 	else
 	{

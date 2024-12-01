@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jdk-23\bin\javac" ProiectNou.java > erori.txt 2>&1

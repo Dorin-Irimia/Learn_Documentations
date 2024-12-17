@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
   <diagram name="Page-1" id="so_6djTKiyOjhYWVK6NY">
     <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="dD2PPeY6zO0vGN9yNTjX-32" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="180" y="480" width="400" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="dD2PPeY6zO0vGN9yNTjX-27" value="Componente:&lt;div&gt;&lt;ul&gt;&lt;li&gt;4 Switchuri&lt;/li&gt;&lt;li&gt;1 Shift register&amp;nbsp;74HC165&lt;/li&gt;&lt;li&gt;4 LED-uri&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#bac8d3;strokeColor=#23445d;" parent="dD2PPeY6zO0vGN9yNTjX-32" vertex="1">
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-27" value="Componente:&lt;div&gt;&lt;ul&gt;&lt;li&gt;1 Switch&lt;/li&gt;&lt;li&gt;1 Resistor&lt;/li&gt;&lt;li&gt;1 LED&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#bac8d3;strokeColor=#23445d;" parent="dD2PPeY6zO0vGN9yNTjX-32" vertex="1">
           <mxGeometry width="400" height="160" as="geometry" />
         </mxCell>
         <mxCell id="dD2PPeY6zO0vGN9yNTjX-26" value="Modul_Portiere" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="dD2PPeY6zO0vGN9yNTjX-32" vertex="1">
@@ -16,7 +16,7 @@
         <mxCell id="dD2PPeY6zO0vGN9yNTjX-33" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="180" y="650" width="400" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="dD2PPeY6zO0vGN9yNTjX-29" value="Componente:&lt;div&gt;&lt;ul&gt;&lt;li&gt;1 Comutator&lt;/li&gt;&lt;li&gt;1 Resistor&lt;/li&gt;&lt;li&gt;2 LED-uri&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#bac8d3;strokeColor=#23445d;" parent="dD2PPeY6zO0vGN9yNTjX-33" vertex="1">
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-29" value="Componente:&lt;div&gt;&lt;ul&gt;&lt;li&gt;1 Comutator&lt;/li&gt;&lt;li&gt;1 Resistor&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#bac8d3;strokeColor=#23445d;" parent="dD2PPeY6zO0vGN9yNTjX-33" vertex="1">
           <mxGeometry width="400" height="160" as="geometry" />
         </mxCell>
         <mxCell id="dD2PPeY6zO0vGN9yNTjX-30" value="Modul_Contact" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="dD2PPeY6zO0vGN9yNTjX-33" vertex="1">
@@ -112,7 +112,7 @@
         <mxCell id="dD2PPeY6zO0vGN9yNTjX-38" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="590" y="480" width="400" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="dD2PPeY6zO0vGN9yNTjX-39" value="Componente:&lt;div&gt;&lt;ul&gt;&lt;li&gt;1 Switch&lt;/li&gt;&lt;li&gt;1 LED&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#bac8d3;strokeColor=#23445d;" parent="dD2PPeY6zO0vGN9yNTjX-38" vertex="1">
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-39" value="Componente:&lt;div&gt;&lt;ul&gt;&lt;li&gt;1 Switch&lt;/li&gt;&lt;li&gt;1 Resistor&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#bac8d3;strokeColor=#23445d;" parent="dD2PPeY6zO0vGN9yNTjX-38" vertex="1">
           <mxGeometry width="400" height="160" as="geometry" />
         </mxCell>
         <mxCell id="dD2PPeY6zO0vGN9yNTjX-40" value="Modul_Centura" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="dD2PPeY6zO0vGN9yNTjX-38" vertex="1">
@@ -121,7 +121,7 @@
         <mxCell id="dD2PPeY6zO0vGN9yNTjX-41" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="590" y="650" width="400" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="dD2PPeY6zO0vGN9yNTjX-42" value="Componente:&lt;div&gt;&lt;ul&gt;&lt;li&gt;1 Comutator&lt;/li&gt;&lt;li&gt;1 Resistor&lt;/li&gt;&lt;li&gt;2 LED-uri&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#bac8d3;strokeColor=#23445d;" parent="dD2PPeY6zO0vGN9yNTjX-41" vertex="1">
+        <mxCell id="dD2PPeY6zO0vGN9yNTjX-42" value="Componente:&lt;div&gt;&lt;ul&gt;&lt;li&gt;1 Comutator&lt;/li&gt;&lt;li&gt;1 Resistor&lt;/li&gt;&lt;li&gt;1 LED&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#bac8d3;strokeColor=#23445d;" parent="dD2PPeY6zO0vGN9yNTjX-41" vertex="1">
           <mxGeometry width="400" height="160" as="geometry" />
         </mxCell>
         <mxCell id="dD2PPeY6zO0vGN9yNTjX-43" value="Modul_Faruri" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="dD2PPeY6zO0vGN9yNTjX-41" vertex="1">

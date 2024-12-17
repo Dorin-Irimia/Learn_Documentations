@@ -63,19 +63,21 @@ void beltCheck()
                     door_status = 0;
                     DOOR_LIGHT = 0;
                 }
-                else{
-                WARNING_LIGHT = 1;
-                PWM_DS = 50;
-                __delay_ms(300); 
-                WARNING_LIGHT = 0;
-                PWM_DS = 0;
-                __delay_ms(150);
-                }
+
                 if((BELT_SENSOR == 0) || (KLEM2_SENSOR == 0) || (KLEM1_SENSOR == 0))
                 {
                     BELT_LIGHT = 0;
                     belt_status = 0;
                     break;
+                }
+                else
+                {
+                    WARNING_LIGHT = 1;
+                    PWM_DS = 50;
+                    __delay_ms(300); 
+                    WARNING_LIGHT = 0;
+                    PWM_DS = 0;
+                    __delay_ms(150);
                 }
             }
             belt_status = 1;

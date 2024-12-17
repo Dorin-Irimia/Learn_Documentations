@@ -6,3 +6,4 @@ Microcontroler settings:
 
 Buzzer settings:
 ![image](https://github.com/user-attachments/assets/90849291-4704-459f-93d3-995c3d7a6406)
+

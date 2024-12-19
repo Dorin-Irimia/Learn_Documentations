@@ -1,0 +1,26 @@
+# Writing all output to: D:\Git_Clone\Learn_Documentation\WorkSpace\Dorin\Car_song_state\Proteus_project\Car_state_v1.0.log
+set pad_wire_necking on
+bus diagonal
+fanout 5
+route 5
+clean 5
+route 5 16
+clean 5
+route 5 16
+clean 5
+route 5 16
+clean 5
+route 5 16
+clean 5
+route 5 16
+clean 5
+route 5 16
+clean 5
+route 5 16
+clean 5
+route 5 16
+clean 5
+filter 5
+recorner diagonal
+status_file
+

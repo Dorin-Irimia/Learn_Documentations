@@ -4,10 +4,8 @@
  &emsp;&emsp;[<sub>2. Where to find the "hex" file in Proteus 8 Professional</sub>](#2-where-to-find-the-hex-file-in-proteus-8-professional)<br>
 
 
-</sub>
-
 ## 1. Pickit3 Programmer
-> aplication_v3.10
+ > Version: &emsp; <sub>aplication_v3.10</sub>
 
 ### First step:
 - Extract the folder and read the readme.txt file inside it.
